@@ -15,4 +15,4 @@
 
 Sessions 01-10 and the final project assignment are available. Shared datasets are included; all are synthetic educational text files. No external dataset download is needed. [Assets](assets/README.md) records the original diagrams and reuse terms.
 
-The repository has not been published yet. Use the teacher-supplied local folder until the teacher provides the verified public link. Keep folders together so relative links work. Homework submission uses the channel named by the teacher; no submission service is built into this folder.
+Download from the [public course repository](https://github.com/mahandavari/python-for-biosciences): choose **Code > Download ZIP**, then **Extract All**. In VS Code, choose **File > Open Folder** and open the extracted folder containing this file. Keep folders together so relative links work. A teacher-supplied complete local folder also works offline. Homework submission uses the channel named by the teacher; no submission service is built into this folder.

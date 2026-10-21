@@ -6,7 +6,7 @@ You will learn to write and debug small programs, validate DNA strings, search m
 
 ## Download, open and begin
 
-The course repository has not been published yet. Use the teacher-supplied `student-course` folder for now. When the teacher supplies the public repository link, choose **Code > Download ZIP**, then **Extract All** in Windows File Explorer. No Git installation, Git commands or GitHub account is needed for a public ZIP.
+Open the [public course repository](https://github.com/mahandavari/python-for-biosciences), choose **Code > Download ZIP**, then **Extract All** in Windows File Explorer. No Git installation, Git commands or GitHub account is needed for a public ZIP. A teacher-supplied complete folder is also suitable for offline access.
 
 In VS Code, choose **File > Open Folder** and open the extracted folder containing `00_START_HERE.md`, `setup` and `sessions`. Keep every subfolder together. Begin with [00_START_HERE.md](00_START_HERE.md), then follow [setup](setup/README.md). If blocked, use [troubleshooting and the checklist](setup/04_TROUBLESHOOTING_AND_CHECKLIST.md).
 
@@ -41,4 +41,4 @@ All [datasets](datasets/README.md) are synthetic educational examples. They are 
 
 Initial software downloads and package installation need internet. After setup, the downloaded notes, expected outputs, scripts, diagrams and notebooks support offline practice. During class, use chat checkpoints or record predictions on paper if execution is blocked; no microphone or webcam is required. Ask the teacher for the homework submission channel.
 
-The course has runtime checks, but a fresh Windows installation, VS Code graphical workflow, offline wheel installation and a human beginner timing study have not been verified. Follow the setup checks on your own computer. No course-wide reuse license has been selected; the explicit CC0 terms for the original datasets and specified artwork apply only to those contributions.
+All 43 Python files and 18 notebooks were checked on Python 3.12.14, including a new isolated environment installed from requirements.txt. The starter checks intentionally fail until the TODOs are completed. A fresh Windows installation, VS Code graphical workflow, offline wheel installation and a human beginner timing study have not been verified. Follow the setup checks on your own computer. No course-wide reuse license has been selected; the explicit CC0 terms for the original datasets and specified artwork apply only to those contributions.

@@ -27,9 +27,9 @@ VS Code is the writing desk. Python runs the instructions. Jupyter gives us a do
 
 GitHub is a website for storing and sharing projects. A repository is a project's collection of files and changes. You do not need Git or a GitHub account to download a public ZIP.
 
-**The course repository is not published yet. Use only the public course link verified and supplied by the teacher.** For now, use the local `student-course` folder supplied by the teacher. Do not search for an unofficial copy.
+Use the [official public course repository](https://github.com/mahandavari/python-for-biosciences). A complete local course folder supplied by the teacher also works offline.
 
-When the teacher supplies the published URL:
+To download the published course:
 
 1. Open that repository's main page. Above its file list, find **Code** (often a green button).
 2. Choose **Code > Download ZIP**. If a page shows only one file, return to the repository main page first.
