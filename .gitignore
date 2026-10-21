@@ -1,0 +1,44 @@
+# Python, Jupyter and tool caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+# Environments
+.venv/
+venv/
+env/
+ENV/
+# Local editor / operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+# Secrets
+.env
+.env.*
+!.env.example
+secrets/
+credentials/
+*.pem
+*.key
+*credentials*.json
+*token*.json
+# Temporary/generated outputs; curated teaching assets belong elsewhere
+outputs/
+tmp/
+temp/
+*.tmp
+*.log
+~$*
+# Defense in depth: keep these outside the public repository
+instructor-private/
+course-spec/
+project-control/

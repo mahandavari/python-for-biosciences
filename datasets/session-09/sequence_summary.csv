@@ -1,0 +1,9 @@
+sequence_id,length_bases,gc_percent
+S01,4,0
+S02,6,50
+S03,8,25
+S04,10,60
+S05,12,50
+S06,14,50
+S07,16,75
+S08,18,100

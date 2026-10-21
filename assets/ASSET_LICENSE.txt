@@ -1,0 +1,13 @@
+The two original SVG diagrams in session-01 were created for this course
+with code during Stage 2 on 2026-10-21. The original SVG flowchart
+session-03/validated-gc.svg was created with code during Stage 3 on the
+same date. No third-party artwork was used in these three diagrams.
+To the extent permitted by law, the creator dedicates these generated
+diagram contributions to the public domain under CC0 1.0 Universal.
+Terms: https://creativecommons.org/publicdomain/zero/1.0/
+This dedication applies only to these diagrams, not the whole course.
+
+Stage 5 extension, 2026-10-22: the original program-generated chart artwork
+in Session 09 and its ordinary lesson solutions is also dedicated to CC0
+1.0 Universal under the terms above. This extension does not license the
+whole course. Source-table provenance and terms are recorded separately.

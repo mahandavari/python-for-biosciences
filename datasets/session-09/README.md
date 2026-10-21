@@ -1,0 +1,12 @@
+# Session 09 synthetic tables
+
+All data were invented directly for this course by Mahan Davari's course-development workflow on 2026-10-22. Construction: hand-select small categories, times, integer lengths and base compositions for arithmetic checks. No organism, experiment, database or downloaded data was used. These original tables are dedicated to [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). Charts made by the lesson are original program-generated visualizations of these tables, with the same data provenance; they are not experimental figures.
+
+| File | Meaning, units and construction |
+| --- | --- |
+| [measurements.csv](measurements.csv) | Fictional gene IDs A-D, expression-like values 8,12,4,10 arbitrary units (AU). A gene is a DNA region involved in producing a functional product. These values are invented signals, not RNA-seq counts or experimental expression. One number per label, with no replicate or uncertainty model. |
+| [sequence_summary.csv](sequence_summary.csv) | One represented strand per fictional sequence S01-S08. Lengths 4,6,8,10,12,14,16,18 bases. GC percentages 0,50,25,60,50,50,75,100. Hand-selected G+C counts 0,3,2,6,6,7,12,18 make every percentage feasible under the A/C/G/T-only assumption. This summary table contains no actual sequence strings; it cannot support motif analysis. |
+| [time_series.csv](time_series.csv) | Ordered times 0,2,4,6,8 hours and fictional cell counts 10,16,blank,28,32 cells. A cell count means a number of cells at a time point; no volume or growth model is defined. The blank at hour4 is deliberately missing for an unspecified reason, not a zero count. |
+| [homework.csv](homework.csv) | New fictional sequence IDs HW_A-HW_F, lengths 6,8,10,12,16,20 bases and GC percentages 0,25,60,50,75,100. Corresponding possible G+C counts 0,2,6,6,12,20. No missing values. A new six-row table for three appropriate plots. |
+
+CSV headers define text identifiers and numeric quantities. Percentage means `(G+C)/length*100` for nonempty validated DNA. Length is not measured in hours or arbitrary units. Histogram counts are numbers of fictional sequence records. Every file has one header row. No random sampling, organism identity, gene function, causality, significance, treatment groups or biological variation can be inferred. The ordered cell counts support a descriptive line only; a missing point must remain visible as a gap. Keep these files beside the sessions folder.

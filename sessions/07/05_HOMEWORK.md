@@ -1,0 +1,5 @@
+# Session 07 homework: a checked file report
+
+Use datasets/session-07/homework.fasta, a new synthetic three-record dataset. Create a script that reads the supported FASTA subset, validates all records, calculates length, A/T/G/C counts and GC percent, then saves outputs/homework_report.csv under your working folder. Keep IDs; reject duplicates, empty records and invalid symbols. Print helpful FileNotFoundError/ValueError messages; do not silently drop a record or write a partial valid-only report. You may reuse today's file_tools module by keeping your runner beside it.
+
+Expected rows: Seed_A ATGC length4 A1 T1 G1 C1 GC50%; Seed_B AATT length4 A2 T2 G0 C0 GC0%; Seed_C GCGCGC length6 A0 T0 G3 C3 GC100%. Read the report back with an independent csv reader. Test absent, empty and invalid fixtures in a copy of your input setting. Restore homework.fasta. Submit code, CSV and a note with run command, subset assumptions, observed checks and synthetic-data limitation. No motif search or plots required. [Reference](solutions/06_SOLUTIONS.md).

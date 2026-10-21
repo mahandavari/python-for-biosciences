@@ -1,0 +1,7 @@
+sequence_id,length_bases,gc_percent
+HW_A,6,0
+HW_B,8,25
+HW_C,10,60
+HW_D,12,50
+HW_E,16,75
+HW_F,20,100

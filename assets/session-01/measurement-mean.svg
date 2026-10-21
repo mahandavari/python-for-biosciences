@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="870" viewBox="0 0 760 870" role="img" aria-labelledby="title desc">
+ <title id="title">Mean of three fictional seedling lengths</title>
+ <desc id="desc">Start, read 10, 12, 14 mm, add to get 36 mm, divide by three to get 12 mm, show the mean, end. No branches.</desc>
+ <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#16324f"/></marker></defs>
+ <rect width="760" height="870" fill="white"/>
+ <g font-family="Arial, sans-serif" text-anchor="middle" fill="#16324f"><text x="380" y="35" font-size="26">Mean of three fictional lengths</text>
+ <g stroke="#16324f" stroke-width="2" fill="#eef5fa">
+  <rect x="255" y="60" width="250" height="65" rx="32"/>
+  <path d="M160 175 H640 L600 280 H120 Z"/>
+  <rect x="160" y="330" width="440" height="90"/>
+  <rect x="160" y="470" width="440" height="90"/>
+  <path d="M180 610 H620 L580 700 H140 Z"/>
+  <rect x="255" y="750" width="250" height="65" rx="32"/>
+ </g>
+ <g font-size="25"><text x="380" y="101">START</text><text x="380" y="215">Read lengths (mm)</text><text x="380" y="253">10, 12, 14</text><text x="380" y="368">Add the lengths</text><text x="380" y="401">Total = 36 mm</text><text x="380" y="508">Divide total by 3</text><text x="380" y="541">Mean = 12 mm</text><text x="380" y="648">Show mean</text><text x="380" y="682">12 mm</text><text x="380" y="792">END</text></g>
+ <text x="380" y="850" font-size="19">Synthetic educational values; no biological conclusion.</text></g>
+ <g fill="none" stroke="#16324f" stroke-width="3" marker-end="url(#arrow)"><path d="M380 125 V163"/><path d="M380 280 V318"/><path d="M380 420 V458"/><path d="M380 560 V598"/><path d="M380 700 V738"/></g>
+</svg>

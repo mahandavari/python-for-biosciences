@@ -1,0 +1,5 @@
+# Session 06 homework: a reusable DNA module
+
+Create your own module homework_dna.py and separate run_homework.py in one folder. Do not read files or install packages. Use functions, loops and structures taught so far. Define validation, nucleotide counts, GC percentage and exact overlapping motif search. Use descriptive names and short docstrings. Normalize case/end whitespace; reject empty DNA and internal invalid symbols. Return False from validation and None from other invalid requests; valid no-match search returns []. Document the string-only contract and zero-based starts.
+
+The runner must import the module, analyze synthetic ATATAT/ATA and ATGC/GC, and print counts, GC and positions. Expected: first length6, A3 T3 G0 C0, GC0%, starts[0,2]; second length4, all counts1, GC50%, starts[2]. Include at least five meaningful assert checks covering valid, invalid, empty, mixed case and overlapping motif behavior. Add a note explaining why you used return and how to run the runner from its folder. Submit both files and the note; a blocked attempt should include the exact error. [Reference](solutions/06_SOLUTIONS.md).

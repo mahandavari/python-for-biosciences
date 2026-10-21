@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="280" viewBox="0 0 1000 280" role="img" aria-labelledby="title desc">
+ <title id="title">Input, process and output</title>
+ <desc id="desc">Fictional lengths 10, 12 and 14 mm are added and divided by three, giving a mean of 12 mm.</desc>
+ <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#16324f"/></marker></defs>
+ <rect width="1000" height="280" fill="white"/>
+ <g font-family="Arial, sans-serif" text-anchor="middle" fill="#16324f">
+  <text x="500" y="35" font-size="25">Fictional seedling lengths: one mean</text>
+  <g stroke="#16324f" stroke-width="2" fill="#eef5fa"><rect x="25" y="75" width="265" height="140" rx="12"/><rect x="365" y="75" width="270" height="140" rx="12"/><rect x="710" y="75" width="265" height="140" rx="12"/></g>
+  <g font-size="25"><text x="158" y="115">INPUT</text><text x="500" y="115">PROCESS</text><text x="842" y="115">OUTPUT</text></g>
+  <g font-size="23"><text x="158" y="157">10, 12, 14 mm</text><text x="500" y="157">Add: 36 mm</text><text x="500" y="190">Divide by 3</text><text x="842" y="157">Mean: 12 mm</text></g>
+  <text x="500" y="258" font-size="19">Synthetic educational values only; not experimental evidence.</text>
+ </g>
+ <g stroke="#16324f" stroke-width="3" marker-end="url(#arrow)"><path d="M290 145 H350"/><path d="M635 145 H695"/></g>
+</svg>

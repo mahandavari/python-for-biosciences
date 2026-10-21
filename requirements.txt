@@ -1,0 +1,10 @@
+# Session 01 scripts use only built-in Python.
+# Session 02 local VS Code notebooks need this Python kernel package.
+# Tested with Python 3.12.14 on Windows; VS Code extensions install separately.
+ipykernel==7.4.0
+# Session 08 numerical/table work; tested together with Python 3.12.14.
+numpy==2.2.6
+pandas==2.2.3
+# Sessions 09-10; imported and executed with the combination above.
+matplotlib==3.11.2
+biopython==1.88
